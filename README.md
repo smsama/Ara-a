@@ -15,3 +15,4 @@ Esquema de distribución de las patas:
     
 Importante: al conectar los servos verificar que los cables no queden tirantes (para que las patas se puedan mover), y que no toquen el piso. 
 El código usa la librería ESP32_Servo, que está subida entre los archivos.
+No se recomienda mover todos los servos al mismo tiempo. Para movimientos complejos separar los movimientos por patas y esperar algunos segundos entre el movimiento de una pata y otra.
